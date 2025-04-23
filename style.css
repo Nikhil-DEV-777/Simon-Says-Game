@@ -5,8 +5,8 @@ body{
     
 }
 .btn{
-    height: 200px;
-    width: 200px;
+    height: 5em;
+    width: 5em;
     border: 10px solid black;
     border-radius: 20%;
     margin: 1.5em;
