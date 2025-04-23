@@ -33,3 +33,16 @@ body{
 .playerflash{
     background-color: rgb(145, 245, 127);
 }
+@media (max-width:500px) {
+    .btn{
+        height: 100px;
+        width: 100px;
+        border: 10px solid black;
+        border-radius: 20%;
+        margin: 1.5em;
+    }
+    .con{
+        display: block;
+        justify-items: center;
+    }
+}
