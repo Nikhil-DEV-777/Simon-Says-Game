@@ -5,7 +5,16 @@ let started=false;
 let level=0;
 let inx=-1;
 let btns =document.querySelectorAll('.btn');
+let start=document.querySelector("b");
 document.addEventListener("keypress",function(){
+    
+    if(started!=true){
+        console.log("game stated");
+        levelup();
+    }
+    started=true;
+})
+start.addEventListener("click",function(){
     
     if(started!=true){
         console.log("game stated");
@@ -39,7 +48,8 @@ function checkans(inx){
             body.style.backgroundColor='white';
         },500)
         let lev= document.querySelector("h4")
-        lev.innerHTML=`Game Over! Your score was ${level} Press any key to restart`;
+        lev.innerHTML=`Game Over! Your score was ${level} Press any key to <b>restart</b>`;
+
         restart();
 
     }
@@ -79,6 +89,15 @@ function restart(){
     gameseq=[];
     userseq=[];
     level=0;
+    let start=document.querySelector("b");
+    start.addEventListener("click",function(){
+    
+        if(started!=true){
+            console.log("game stated");
+            levelup();
+        }
+        started=true;
+    })
 }
 
 
