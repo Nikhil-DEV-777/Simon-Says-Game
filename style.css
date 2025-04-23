@@ -33,6 +33,9 @@ body{
 .playerflash{
     background-color: rgb(145, 245, 127);
 }
+b{
+    color: green;
+}
 @media (max-width:500px) {
     .btn{
         height: 100px;
