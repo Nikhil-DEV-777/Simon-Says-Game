@@ -1,0 +1,10 @@
+{
+  "repo_path": "D:\\Rift\\backend\\tmp\\workspace\\1a2b0a8a-48e3-49e5-becb-6139cdffa34c",
+  "repo_url": "https://github.com/Nikhil-DEV-777/Simon-Says-Game.git",
+  "team_name": "a",
+  "leader_name": "a",
+  "branch_name": "A_A_AI_Fix",
+  "max_iterations": 5,
+  "sandbox_image": "rift-sandbox:latest",
+  "sandbox_timeout": 120000
+}

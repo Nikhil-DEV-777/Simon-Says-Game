@@ -1,0 +1,32 @@
+{
+  "repository": "D:\\Rift\\backend\\tmp\\workspace\\1a2b0a8a-48e3-49e5-becb-6139cdffa34c",
+  "team_name": "a",
+  "leader_name": "a",
+  "branch_name": "A_A_AI_Fix",
+  "timestamp": "2026-02-19T16:50:44.483415+00:00",
+  "total_time_seconds": 2.62,
+  "iterations_used": 1,
+  "max_iterations": 5,
+  "all_tests_passed": true,
+  "ci_status": "PASSED",
+  "summary": {
+    "total_failures_detected": 0,
+    "total_fixes_applied": 0,
+    "total_fixes_failed": 0
+  },
+  "score": {
+    "base_score": 100,
+    "speed_bonus": 10,
+    "efficiency_penalty": 0,
+    "final_score": 110
+  },
+  "fixes": [],
+  "ci_timeline": [
+    {
+      "iteration": 1,
+      "status": "PASSED",
+      "timestamp": "2026-02-19T16:50:44.483452+00:00",
+      "errors_remaining": 0
+    }
+  ]
+}
