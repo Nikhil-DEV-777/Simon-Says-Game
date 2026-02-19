@@ -23,7 +23,7 @@ start.addEventListener("click",function(){
     started=true;
 })
 
-function levelup(){
+functio levelup(){
    let lev= document.querySelector("h4")
     level+=1;
     inx=-1;
@@ -99,6 +99,7 @@ function restart(){
         started=true;
     })
 }
+
 
 
 
